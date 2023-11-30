@@ -28,9 +28,6 @@ Starting with four J-K flip-flops connected in such a way to always be in the �
 
 The Q outputs of each flip-flop will serve as the respective binary bits of the final, four-bit count:
 
- 
- 
-
 Four-bit “Up” Counter
 ![image](https://user-images.githubusercontent.com/36288975/169644758-b2f4339d-9532-40c5-af40-8f4f8c942e2c.png)
 
@@ -48,41 +45,47 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 ### Procedure
 /* write all the steps invloved */
 
-
-
 ### PROGRAM 
+
+### Down Counter Code
+
+![ex6 dc code](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/5a4b4cc2-804e-4365-8dd3-7e52328918f8)
+
+### UP Counter Code
+
+![ex6 uc code](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/ff109cbe-9d40-4a5b-ae44-5aee2084b0c9)
+
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by: SUBBIAH S
+
+RegisterNumber: 23005732
+
 */
 
+### RTL LOGIC UP COUNTER 
 
+![ex6 UC rtl](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/fc21f8ee-a3ce-49c9-a936-5792aca58dd8)
 
+### RTL LOGIC DOWN COUNTER  
 
+![ex6 DC RTL](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/f14bb8de-4e3e-4d49-9849-7e1bcddcc660)
 
+### TIMING DIGRAMS UP COUNTER  
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+![ex6 uc wave](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/615e884c-7462-4e6d-a5ea-c50165aa7315)
 
+### TIMING DIGRAMS DOWN COUNTER  
 
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
+![ex6 dc wave](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/563e657b-2b2c-4737-b7de-711f45b76447)
 
 ### RESULTS 
+
+### TRUTH TABLE DOWN COUNTER
+
+![dc truth](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/4ea0b3fb-3d2c-4a8c-83e5-03dec641d45b)
+
+### TRUTH TABLE UP COUNTER
+
+![UC truth](https://github.com/SUBBIAH1904/Exp-7-Synchornous-counters-/assets/147473604/a5e0610b-c328-47b7-8c6d-e48e734407db)
